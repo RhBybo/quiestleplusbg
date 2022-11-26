@@ -21,6 +21,10 @@ app.get('/', (req, res) => {
     res.render('index') //Récuperer les données de ce fichier
 })
 
+app.get('/menu', (req, res) => {
+    res.render('menu') //Récuperer les données de ce fichier
+})
+
 // Créer un localhost/serveur
 app.listen(POST, () => {
     console.log('Votre serveur est lancé : http://' + HOST + ':' + POST)
