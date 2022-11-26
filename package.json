@@ -1,0 +1,15 @@
+{
+  "name": "qui-est-plus-bg",
+  "version": "0.0.1",
+  "description": "Savoir qui est le plus bg",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "author": "kazak_rh",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2"
+  }
+}
